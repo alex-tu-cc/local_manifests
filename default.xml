@@ -24,6 +24,8 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <remove-project name="hardware/interfaces"/>
+  <project path="hardware/interfaces" name="AOSP_hardware_interfaces" revision="android10-rpi3-personal" remote="alex">
 
   <project path="vendor/arpi/RpLauncher" name="RpLauncher" revision="android10" remote="arpi"/>
 

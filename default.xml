@@ -9,7 +9,6 @@
 
   <project path="kernel/rpi" name="kernel_rpi" revision="arpi-4.19.y" remote="arpi"/>
   <project path="hardware/rpi" name="hardware_rpi" revision="android10" remote="arpi"/>
-  <project path="hardware/alex-testing-hw/helloalex" name="hardware_alex-testing-hw_helloalex" revision="master" remote="alex"/>
   <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="android10_personal" remote="alex">
       <linkfile src="scripts/rpi3-build-images.sh" dest="rpi3-build-images.sh" />
       <linkfile src="scripts/rpi3-build-kernel.sh" dest="rpi3-build-kernel.sh" />
